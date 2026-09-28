@@ -10,7 +10,7 @@ This repository contains the soil data model of **SIM O3**, a relational data mo
 
 ## Background
 
-O3 starts from the **EJP SOIL GeoPackage**, an implementation of the **INSPIRE Soil** data specification, and is aligned with the INSPIRE-based model proposed by the **European Environment Agency (EEA)** for soil data reporting under the NEC Directive.
+O3 starts from the **EJP SOIL GeoPackage** <<https://zenodo.org/records/18246825>>, an implementation of the **INSPIRE Soil** <<https://inspire-mif.github.io/uml-models/approved/html/index.htm?goto=2:3:17:9065>> data specification, and is aligned with the INSPIRE-based model proposed by the **European Environment Agency (EEA)** for soil data reporting under the NEC Directive.
 
 These models describe where soil was observed and how soil properties were measured, but they do not record much of the context needed to interpret and compare monitoring results over time. O3 keeps the INSPIRE core unchanged and adds this context as new tables and attributes.
 
@@ -21,7 +21,7 @@ These models describe where soil was observed and how soil properties were measu
 | Land cover, land use and soil management | Separate INSPIRE themes, not linked to soil sites | Site classification only (MAES, EUNIS, protection status) | Land use (HILUCS), land cover with mosaics and vegetation type, soil management attributes per site and date |
 | Sampling and sampler | Plot type and depth ranges | Plot or sample size, sampling depth | Sampler, equipment, sampling procedure, sampling area size and shape, sub-samples and their locations |
 | Sample handling and measurement uncertainty | No dedicated attributes | No dedicated attributes | Transport, storage and preparation of samples, laboratory, numeric uncertainty and threshold operators for censored values |
-| Soil biodiversity | No data structure | "Biological" category of observable properties | Biological forms (e.g. soil microarthropods) recorded through a hierarchical code list, searchable by taxonomic class |
+| Soil biodiversity | No data structure | "Biological" category of observable properties | Biological forms (e.g. soil microarthropods) <<https://zenodo.org/records/14070537>> recorded through a hierarchical code list, searchable by taxonomic class |
 
 ## Model overview
 
@@ -59,7 +59,7 @@ A license has not been chosen yet. Until one is added, all rights are reserved.
 
 ## Funding
 
-This work was carried out within **SIM – Sistema Avanzato ed Integrato di Monitoraggio e Previsione** (Advanced and Integrated Monitoring and Forecasting System) of the Italian Ministry of Environment and Energy Security (MASE), under the National Recovery and Resilience Plan (PNRR), Mission 2, Component 4, Investment 1.1 "Realizzazione di un sistema avanzato ed integrato di monitoraggio e previsione", funded by the European Union – NextGenerationEU.
+This work was carried out within **SIM – Sistema Avanzato ed Integrato di Monitoraggio e Previsione** (Advanced and Integrated Monitoring and Forecasting System) <<https://sim.mase.gov.it/portalediaccesso>> of the Italian Ministry of Environment and Energy Security (MASE), under the National Recovery and Resilience Plan (PNRR), Mission 2, Component 4, Investment 1.1 "Realizzazione di un sistema avanzato ed integrato di monitoraggio e previsione", funded by the European Union – NextGenerationEU.
 
 ## Feedback
 
